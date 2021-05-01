@@ -1,0 +1,21 @@
+fibonacci 7
+$
+Meno: Fi1
+AK    fibonacci 1
+POTOM vymaz fibonacci 1,pridaj fibonacci 1 je 1,sprava fibonacci 1 je 1
+
+Meno: Fi2
+AK    fibonacci 2
+POTOM vymaz fibonacci 2,pridaj fibonacci 2 je 1,sprava fibonacci 2 je 1
+
+Meno: Fi3
+AK    fibonacci ?x,<> ?x 1,<> ?x 2
+POTOM vymaz fibonacci ?x,pridaj medzivypocet ?x 1 2 3
+
+Meno: Fi4
+AK    medzivypocet ?x ?y ?z ?x
+POTOM vymaz medzivypocet ?x ?y ?z ?x,pridaj fibonacci ?x je ?z,sprava fibonacci ?x je ?z
+
+Meno: Fi5
+AK    medzivypocet ?x ?y ?z ?u
+POTOM vymaz medzivypocet ?x ?y ?z ?u,pridaj medzivypocet ?x ?z { ?y + ?z } { ?u + 1 }
