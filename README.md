@@ -1,2 +1,2 @@
-# projects_UI
+# projects_AI
 # Predmet: Umelá inteligencia
